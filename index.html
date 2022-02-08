@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Sound controlled animals</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+        <div class="Header">
+            <h1>Animal noise identifier</h1>
+            <p>Note: You can play sounds of Cats, dogs, cows and lions to see the effect!</p>
+            </div>
+            <div class="middle">
+            <button id="start" onclick="start()" class="btn btn-danger">Start!</button>
+            <br><br>
+            <p>Sound recognised - <span id="rec_sound"></span></p>
+            <p>Accuracy - <span id="rec_accuracy"></span></p>
+            <br><br><br><br>
+            <img id="ear1" src="ear.png" height="300" width="300">
+            </div>
+            <div class="footer">
+              <p>Developed by Anagha Jois!</p>
+            </div>
+        </center>
+    <script src="main.js"></script>
+    </body>
+</html>

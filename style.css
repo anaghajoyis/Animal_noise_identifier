@@ -1,0 +1,14 @@
+.Header{
+    background-color: aqua;
+    color: darkmagenta;
+}
+.middle{
+    background-image: linear-gradient(to right, #ffcbf2 , #deaaff, #c0fdff);
+    color: #f20089;
+}
+.footer{
+    background-color: aqua;
+    color: darkmagenta;
+    position: fixed;
+    bottom: 1px;
+}
